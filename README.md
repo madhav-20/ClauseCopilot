@@ -60,11 +60,9 @@ core/
 assets/
 ```
 
-```markdown
-## Screenshot
+## Screenshots
 ![ClauseSense Demo](assets/demo1.png)
 ![ClauseSense Demo](assets/demo2.png)
-```
 
 
 
