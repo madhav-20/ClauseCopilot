@@ -1,6 +1,6 @@
 # ClauseSense — Vendor Risk & Contract Copilot
 
-Teammates: Sara Malik (@ssaramalik), Tanish J
+Teammates: Sara Malik, Tanish J
 
 ClauseSense is a Streamlit-based AI agent that reviews vendor contracts like a Legal Ops assistant.
 Upload a contract PDF and get an explainable risk report (with clause evidence), a plain-English summary,
