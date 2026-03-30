@@ -26,9 +26,9 @@ Clause Copilot gives you five tools in one Streamlit interface:
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                  Streamlit UI (app.py)               │
-│         5 tabs: Review · Chat · Negotiation          │
-│                Clause Library · History              │
+│                  Streamlit UI (app.py)              │
+│         5 tabs: Review · Chat · Negotiation         │
+│                Clause Library · History             │
 ├──────────────┬──────────────┬───────────────────────┤
 │  core/       │  core/       │  core/                │
 │  ingest.py   │  chunking.py │  retrieval.py         │
@@ -37,17 +37,17 @@ Clause Copilot gives you five tools in one Streamlit interface:
 │              │  aware,      │  batched embeddings,  │
 │              │  overlap)    │  section labels)      │
 ├──────────────┴──────────────┴───────────────────────┤
-│  core/embeddings.py                                  │
+│  core/embeddings.py                                 │
 │  (SentenceTransformers — all-MiniLM-L6-v2)          │
 ├──────────────────────────┬──────────────────────────┤
 │  core/vectorstore.py     │  core/storage.py         │
 │  (ChromaDB — persistent) │  (SQLite — contracts,    │
-│                          │   outputs, dismissed      │
+│                          │   outputs, dismissed     │
 │                          │   flags cache)           │
 ├──────────────────────────┴──────────────────────────┤
-│  core/agents.py                                      │
+│  core/agents.py                                     │
 │  (Ollama — dynamic model detection via /api/tags)   │
-│  Risk review · Summary · Negotiation · Chat          │
+│  Risk review · Summary · Negotiation · Chat         │
 └─────────────────────────────────────────────────────┘
 ```
 
