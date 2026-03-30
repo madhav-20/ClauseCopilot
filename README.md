@@ -284,9 +284,9 @@ Clause Copilot is a legal research and drafting aid, not a substitute for profes
 
 ## Acknowledgements
 
-Built as part of SCU MSIS coursework.
+Built as part of SCU MSIS coursework(GenAI for Enterprise).
 Core development and architecture by Madhav Mundada.
-Sara Malik contributed to early prototyping.
+Sara Malik contributed to prototyping and development.
 
 ---
 
