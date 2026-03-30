@@ -1,0 +1,28 @@
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Local data (generated during runs) ---
+data/uploads/
+data/chroma/
+data/*.db
+data/*.sqlite3
+*.sqlite3
+*.bin
+*.pickle
+*.pkl
+
+# --- OS / editor junk ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Secrets ---
+.env
+.env.*

@@ -1,0 +1,12 @@
+# ClauseSense / ClauseCopilot — contract risk & clause library
+streamlit>=1.28
+pdfplumber>=0.10
+sentence-transformers>=2.2
+chromadb>=0.4
+langchain-community>=0.0.20
+
+# Optional: for scanned PDFs (OCR). Also need system: poppler, tesseract-ocr
+pdf2image>=1.16
+pytesseract>=0.3.10
+
+tenacity>=8.2
